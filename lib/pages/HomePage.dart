@@ -12,8 +12,7 @@ class HomePage extends StatefulWidget {
 }
 
 class HomePageState extends State<HomePage> {
-  var url =
-      "http://api.themoviedb.org/3/movie/popular?api_key=b5481a85cbb44c13c6c6931834845104&page=1";
+  var url = "http://api.themoviedb.org/3/movie/popular?api_key=b5481a85cbb44c13c6c6931834845104&page=1";
 
   MovieHub movieHub;
 
